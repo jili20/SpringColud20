@@ -15,3 +15,7 @@ spring:
 mybatis:
   mapperLocations: classpath:mapper/*.xml			      # 新建mapper目录，把sql.xml 都放于此目录下
   type-aliases-package: com.atguigu.springcloud.entities    # 所有Entity别名类所在包
+
+#eureka:
+#  client:
+#    fetch-registry: false

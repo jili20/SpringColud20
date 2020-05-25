@@ -11,6 +11,8 @@
 
   <modules>
     <module>cloud-provider-payment8001</module>
+    <module>cloud-consumer-order80</module>
+      <module>cloud-api-commons</module>
   </modules>
 
   <!-- 统一管理jar包版本 -->
@@ -58,7 +60,6 @@
         <artifactId>mysql-connector-java</artifactId>
         <version>${mysql.version}</version>
       </dependency>
-
       <dependency>
         <groupId>com.alibaba</groupId>
         <artifactId>druid-spring-boot-starter</artifactId>
@@ -89,6 +90,7 @@
   </dependencyManagement>
 
   <build>
+    <finalName>SpringCloud2020 第2季</finalName>
     <plugins>
       <plugin>
         <groupId>org.springframework.boot</groupId>
