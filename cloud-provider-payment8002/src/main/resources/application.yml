@@ -11,7 +11,6 @@ spring:
     username: root
     password: Bing_yu2001
 
-
 eureka:
   client:
     #表示是否将自己注册进EurekaServer默认为true。
@@ -23,7 +22,9 @@ eureka:
 #      defaultZone: http://localhost:7001/eureka
       # 集群版
       defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
-
+  instance:
+    instance-id: payment8002
+    prefer-ip-address: true  #访问路径可以显示IP地址
 
 mybatis:
   mapperLocations: classpath:mapper/*.xml			      # 新建mapper目录，把sql.xml 都放于此目录下

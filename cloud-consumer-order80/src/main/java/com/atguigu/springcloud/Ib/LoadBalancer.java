@@ -1,4 +1,4 @@
-package com.atguigu.Ib;
+package com.atguigu.springcloud.Ib;
 
 import org.springframework.cloud.client.ServiceInstance;
 import java.util.List;
@@ -7,5 +7,5 @@ import java.util.List;
  */
 public interface LoadBalancer
 {
-    ServiceInstance instances(List<ServiceInstance> serviceInstance);
+    ServiceInstance instances(List<ServiceInstance> serviceInstance); // 能提供服务的机器总数
 }
