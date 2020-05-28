@@ -20,15 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="352714cb-019c-48f1-ad92-9bd5279b5fb8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-config-client-3355/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/java/com/atguigu/springbloud/ConfigClientMain3355.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/java/com/atguigu/springbloud/controller/ConfigClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-feign-order80/target/classes/META-INF/cloud-consumer-feign-order80.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/META-INF/cloud-consumer-order80.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-gateway-gateway9527/target/classes/META-INF/cloud-gateway-gateway9527.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/target/classes/META-INF/cloud-provider-payment8002.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-providerconsul-payment8006/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-providerconsul-payment8006/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3366/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3366/src/main/java/com/atguigu/springcloud/ConfigClientMain3366.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3366/src/main/java/com/atguigu/springcloud/controller/ConfigClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3366/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center-3344/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center-3344/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center-3344/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center-3344/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client-3355/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client-3355/target/classes/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +117,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigClientMain3355">
+  <component name="RunManager" selected="Spring Boot.ConfigClientMain3366">
     <configuration name="T2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="T2" />
       <module name="cloud-gateway-gateway9527" />
@@ -152,6 +151,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConfigClientMain3366" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-config-client-3366" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.ConfigClientMain3366" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-eureka-server7001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.EurekaMain7001" />
@@ -175,6 +187,13 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.GateWayMain9527" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixDashboardMain9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-hystrix-dashboard9001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.com.HystrixDashboardMain9001" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -214,19 +233,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentHystrixMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-provider-hystrix-payment8001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.PaymentHystrixMain8001" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PaymentMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-provider-payment8001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.PaymentMain8001" />
@@ -257,11 +263,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ConfigClientMain3366" />
         <item itemvalue="Spring Boot.ConfigClientMain3355" />
         <item itemvalue="Spring Boot.ConfigCenterMain3344" />
         <item itemvalue="Application.T2" />
         <item itemvalue="Spring Boot.GateWayMain9527" />
-        <item itemvalue="Spring Boot.PaymentHystrixMain8001" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +293,8 @@
       <workItem from="1590493860353" duration="10012000" />
       <workItem from="1590545847963" duration="4642000" />
       <workItem from="1590560847812" duration="12024000" />
-      <workItem from="1590579874929" duration="6573000" />
+      <workItem from="1590579874929" duration="8057000" />
+      <workItem from="1590644703869" duration="2669000" />
     </task>
     <servers />
   </component>
@@ -362,38 +369,38 @@
       <screen x="0" y="23" width="1280" height="752" />
     </state>
     <state x="316" y="23" key="Github.UntrackedFilesDialog/0.23.1280.752@0.23.1280.752" timestamp="1590314564937" />
-    <state width="867" height="286" key="GridCell.Tab.0.bottom" timestamp="1590588843370">
+    <state width="832" height="286" key="GridCell.Tab.0.bottom" timestamp="1590648210230">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
-    <state width="867" height="286" key="GridCell.Tab.0.bottom/0.23.1280.752@0.23.1280.752" timestamp="1590588843370" />
-    <state width="867" height="286" key="GridCell.Tab.0.center" timestamp="1590588843369">
+    <state width="832" height="286" key="GridCell.Tab.0.bottom/0.23.1280.752@0.23.1280.752" timestamp="1590648210230" />
+    <state width="832" height="286" key="GridCell.Tab.0.center" timestamp="1590648210230">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
-    <state width="867" height="286" key="GridCell.Tab.0.center/0.23.1280.752@0.23.1280.752" timestamp="1590588843369" />
-    <state width="867" height="286" key="GridCell.Tab.0.left" timestamp="1590588843369">
+    <state width="832" height="286" key="GridCell.Tab.0.center/0.23.1280.752@0.23.1280.752" timestamp="1590648210230" />
+    <state width="832" height="286" key="GridCell.Tab.0.left" timestamp="1590648210229">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
-    <state width="867" height="286" key="GridCell.Tab.0.left/0.23.1280.752@0.23.1280.752" timestamp="1590588843369" />
-    <state width="867" height="286" key="GridCell.Tab.0.right" timestamp="1590588843370">
+    <state width="832" height="286" key="GridCell.Tab.0.left/0.23.1280.752@0.23.1280.752" timestamp="1590648210229" />
+    <state width="832" height="286" key="GridCell.Tab.0.right" timestamp="1590648210230">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
-    <state width="867" height="286" key="GridCell.Tab.0.right/0.23.1280.752@0.23.1280.752" timestamp="1590588843370" />
-    <state width="867" height="286" key="GridCell.Tab.1.bottom" timestamp="1590588843372">
+    <state width="832" height="286" key="GridCell.Tab.0.right/0.23.1280.752@0.23.1280.752" timestamp="1590648210230" />
+    <state width="832" height="286" key="GridCell.Tab.1.bottom" timestamp="1590648210232">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
-    <state width="867" height="286" key="GridCell.Tab.1.bottom/0.23.1280.752@0.23.1280.752" timestamp="1590588843372" />
-    <state width="867" height="286" key="GridCell.Tab.1.center" timestamp="1590588843371">
+    <state width="832" height="286" key="GridCell.Tab.1.bottom/0.23.1280.752@0.23.1280.752" timestamp="1590648210232" />
+    <state width="832" height="286" key="GridCell.Tab.1.center" timestamp="1590648210231">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
-    <state width="867" height="286" key="GridCell.Tab.1.center/0.23.1280.752@0.23.1280.752" timestamp="1590588843371" />
-    <state width="867" height="286" key="GridCell.Tab.1.left" timestamp="1590588843371">
+    <state width="832" height="286" key="GridCell.Tab.1.center/0.23.1280.752@0.23.1280.752" timestamp="1590648210231" />
+    <state width="832" height="286" key="GridCell.Tab.1.left" timestamp="1590648210231">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
-    <state width="867" height="286" key="GridCell.Tab.1.left/0.23.1280.752@0.23.1280.752" timestamp="1590588843371" />
-    <state width="867" height="286" key="GridCell.Tab.1.right" timestamp="1590588843371">
+    <state width="832" height="286" key="GridCell.Tab.1.left/0.23.1280.752@0.23.1280.752" timestamp="1590648210231" />
+    <state width="832" height="286" key="GridCell.Tab.1.right" timestamp="1590648210231">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
-    <state width="867" height="286" key="GridCell.Tab.1.right/0.23.1280.752@0.23.1280.752" timestamp="1590588843371" />
+    <state width="832" height="286" key="GridCell.Tab.1.right/0.23.1280.752@0.23.1280.752" timestamp="1590648210231" />
     <state width="838" height="177" key="GridCell.Tab.2.bottom" timestamp="1590383171897">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
@@ -426,10 +433,10 @@
       <screen x="0" y="23" width="1280" height="752" />
     </state>
     <state x="883" y="322" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1280.752@0.23.1280.752" timestamp="1590317463070" />
-    <state x="127" y="23" key="new project wizard" timestamp="1590585066640">
+    <state x="127" y="23" key="new project wizard" timestamp="1590645427754">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
-    <state x="127" y="23" key="new project wizard/0.23.1280.752@0.23.1280.752" timestamp="1590585066640" />
+    <state x="127" y="23" key="new project wizard/0.23.1280.752@0.23.1280.752" timestamp="1590645427754" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/colud20$PaymentMain8001.ic" NAME="PaymentMain8001 Coverage Results" MODIFIED="1590322298021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
