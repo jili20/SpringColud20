@@ -4,11 +4,9 @@ import com.atguigu.springcloud.dao.PaymentDao;
 import com.atguigu.springcloud.entities.Payment;
 import com.atguigu.springcloud.service.PaymentService;
 import org.springframework.stereotype.Service;
-
 import javax.annotation.Resource;
-
 /**
- * @author bing  @create 2020/5/24 2:56 下午
+ * @author bing  @create 2020/5/28 10:35 下午
  */
 @Service
 public class PaymentServiceImpl implements PaymentService
@@ -16,12 +14,12 @@ public class PaymentServiceImpl implements PaymentService
     @Resource
     private PaymentDao paymentDao;
 
-    public int create(Payment payment)//写操作，插入
+    public int create(Payment payment)
     {
         return paymentDao.create(payment);
     }
 
-    public Payment getPaymentById(Long id)// 读操作
+    public Payment getPaymentById(Long id)
     {
         return paymentDao.getPaymentById(id);
     }

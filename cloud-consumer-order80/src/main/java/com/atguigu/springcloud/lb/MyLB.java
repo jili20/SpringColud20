@@ -1,4 +1,4 @@
-package com.atguigu.springcloud.Ib;
+package com.atguigu.springcloud.lb;
 
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.stereotype.Component;

@@ -11,13 +11,12 @@
 
     <artifactId>cloud-consumer-order80</artifactId>
 
-
     <dependencies>
         <!--包含了sleuth+zipkin-->
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.cloud</groupId>-->
-<!--            <artifactId>spring-cloud-starter-zipkin</artifactId>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+        </dependency>
         <!--eureka-client 入住7001 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
