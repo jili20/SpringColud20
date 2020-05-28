@@ -19,17 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="352714cb-019c-48f1-ad92-9bd5279b5fb8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-config-client-3366/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client-3366/src/main/java/com/atguigu/springcloud/ConfigClientMain3366.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client-3366/src/main/java/com/atguigu/springcloud/controller/ConfigClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client-3366/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-center-3344/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center-3344/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-center-3344/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center-3344/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-config-client-3355/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client-3355/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="352714cb-019c-48f1-ad92-9bd5279b5fb8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -294,7 +284,7 @@
       <workItem from="1590545847963" duration="4642000" />
       <workItem from="1590560847812" duration="12024000" />
       <workItem from="1590579874929" duration="8057000" />
-      <workItem from="1590644703869" duration="2669000" />
+      <workItem from="1590644703869" duration="3816000" />
     </task>
     <servers />
   </component>
