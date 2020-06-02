@@ -20,11 +20,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="352714cb-019c-48f1-ad92-9bd5279b5fb8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/java/com/atguigu/springcloud/alibaba/NacosConfigClientMain3377.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/java/com/atguigu/springcloud/alibaba/controller/ConfigClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/atguigu/springcloud/alibaba/OrderNacosMain84.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/atguigu/springcloud/alibaba/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/atguigu/springcloud/alibaba/controller/CircleBreakerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/atguigu/springcloud/alibaba/service/PaymentFallbackService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/java/com/atguigu/springcloud/alibaba/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-consumer-nacos-order84/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9003/src/main/java/com/atguigu/springcloud/alibaba/PaymentMain9003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9003/src/main/java/com/atguigu/springcloud/alibaba/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9003/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9004/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9004/src/main/java/com/atguigu/springcloud/alibaba/PaymentMain9004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9004/src/main/java/com/atguigu/springcloud/alibaba/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9004/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/springcloud/alibaba/MainApp8401.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/springcloud/alibaba/controller/FlowLimitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/springcloud/alibaba/controller/RateLimitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/java/com/atguigu/springcloud/alibaba/myhandler/CustomerBlockHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/META-INF/cloud-consumer-order80.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +109,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -114,7 +133,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.NacosConfigClientMain3377">
+  <component name="RunManager" selected="Spring Boot.MainApp8401">
     <configuration name="ConfigCenterMain3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-config-center-3344" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.ConfigCenterMain3344" />
@@ -160,6 +179,19 @@
     <configuration name="HystrixDashboardMain9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-consumer-hystrix-dashboard9001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.com.HystrixDashboardMain9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApp8401" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-sentinel-service8401" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.springcloud.alibaba.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.alibaba.MainApp8401" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -214,6 +246,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.alibaba.OrderNacosMain83" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderNacosMain84" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-consumer-nacos-order84" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.springcloud.alibaba.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.alibaba.OrderNacosMain84" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -280,27 +325,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamMQMain8802" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="PaymentMain9003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloudalibaba-provider-payment9003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.alibaba.PaymentMain9003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain9004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloudalibaba-provider-payment9004" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.alibaba.PaymentMain9004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamMQMain8801" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-stream-rabbitmq-provider8801" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.StreamMQMain8801" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamMQMain8802" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-stream-rabbitmq-consumer8802" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.StreamMQMain8802" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamMQMain8803" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamMQMain8803" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-stream-rabbitmq-consumer8803" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.StreamMQMain8803" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -308,11 +362,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.MainApp8401" />
+        <item itemvalue="Spring Boot.OrderNacosMain84" />
         <item itemvalue="Spring Boot.NacosConfigClientMain3377" />
         <item itemvalue="Spring Boot.OrderNacosMain83" />
         <item itemvalue="Spring Boot.PaymentMain9001" />
-        <item itemvalue="Spring Boot.StreamMQMain8803" />
-        <item itemvalue="Spring Boot.StreamMQMain8802" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +398,12 @@
       <workItem from="1590675552506" duration="2274000" />
       <workItem from="1590720671773" duration="357000" />
       <workItem from="1590731682621" duration="10596000" />
-      <workItem from="1590752085522" duration="982000" />
+      <workItem from="1590752085522" duration="2736000" />
+      <workItem from="1590761347361" duration="395000" />
+      <workItem from="1590928397594" duration="4574000" />
+      <workItem from="1590976282897" duration="13849000" />
+      <workItem from="1591011793290" duration="11835000" />
+      <workItem from="1591068471280" duration="2624000" />
     </task>
     <servers />
   </component>
@@ -375,6 +434,10 @@
       <screen x="0" y="23" width="1280" height="752" />
     </state>
     <state x="353" y="23" key="#EurekaMain7001_(1)/0.23.1280.752@0.23.1280.752" timestamp="1590549673248" />
+    <state x="181" y="23" key="#MainApp8401" timestamp="1590989630907">
+      <screen x="0" y="23" width="1280" height="752" />
+    </state>
+    <state x="181" y="23" key="#MainApp8401/0.23.1280.752@0.23.1280.752" timestamp="1590989630907" />
     <state x="59" y="67" key="#Menus_and_Toolbars" timestamp="1590330270849">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
@@ -391,10 +454,10 @@
       <screen x="0" y="23" width="1280" height="752" />
     </state>
     <state x="353" y="23" key="#PaymentHystrixMain8001_(1)/0.23.1280.752@0.23.1280.752" timestamp="1590501061791" />
-    <state x="99" y="60" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590313676001">
+    <state x="99" y="60" width="1134" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591012266698">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
-    <state x="99" y="60" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.752@0.23.1280.752" timestamp="1590313676001" />
+    <state x="99" y="60" width="1134" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.752@0.23.1280.752" timestamp="1591012266698" />
     <state x="936" y="60" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog" timestamp="1590330262352">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
@@ -407,10 +470,10 @@
       <screen x="0" y="23" width="1280" height="752" />
     </state>
     <state x="448" y="596" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1280.752@0.23.1280.752" timestamp="1590470914829" />
-    <state x="405" y="216" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1590392742709">
+    <state x="405" y="216" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1590989263847">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
-    <state x="405" y="216" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1280.752@0.23.1280.752" timestamp="1590392742709" />
+    <state x="405" y="216" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1280.752@0.23.1280.752" timestamp="1590989263847" />
     <state x="373" y="276" key="Github.ShareDialog" timestamp="1590314549322">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
@@ -419,38 +482,38 @@
       <screen x="0" y="23" width="1280" height="752" />
     </state>
     <state x="316" y="23" key="Github.UntrackedFilesDialog/0.23.1280.752@0.23.1280.752" timestamp="1590314564937" />
-    <state width="846" height="409" key="GridCell.Tab.0.bottom" timestamp="1590752996451">
+    <state width="874" height="352" key="GridCell.Tab.0.bottom" timestamp="1591072810217">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
-    <state width="846" height="409" key="GridCell.Tab.0.bottom/0.23.1280.752@0.23.1280.752" timestamp="1590752996451" />
-    <state width="846" height="409" key="GridCell.Tab.0.center" timestamp="1590752996450">
+    <state width="874" height="352" key="GridCell.Tab.0.bottom/0.23.1280.752@0.23.1280.752" timestamp="1591072810217" />
+    <state width="874" height="352" key="GridCell.Tab.0.center" timestamp="1591072810216">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
-    <state width="846" height="409" key="GridCell.Tab.0.center/0.23.1280.752@0.23.1280.752" timestamp="1590752996450" />
-    <state width="846" height="409" key="GridCell.Tab.0.left" timestamp="1590752996449">
+    <state width="874" height="352" key="GridCell.Tab.0.center/0.23.1280.752@0.23.1280.752" timestamp="1591072810216" />
+    <state width="874" height="352" key="GridCell.Tab.0.left" timestamp="1591072810215">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
-    <state width="846" height="409" key="GridCell.Tab.0.left/0.23.1280.752@0.23.1280.752" timestamp="1590752996449" />
-    <state width="846" height="409" key="GridCell.Tab.0.right" timestamp="1590752996450">
+    <state width="874" height="352" key="GridCell.Tab.0.left/0.23.1280.752@0.23.1280.752" timestamp="1591072810215" />
+    <state width="874" height="352" key="GridCell.Tab.0.right" timestamp="1591072810216">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
-    <state width="846" height="409" key="GridCell.Tab.0.right/0.23.1280.752@0.23.1280.752" timestamp="1590752996450" />
-    <state width="846" height="409" key="GridCell.Tab.1.bottom" timestamp="1590752996453">
+    <state width="874" height="352" key="GridCell.Tab.0.right/0.23.1280.752@0.23.1280.752" timestamp="1591072810216" />
+    <state width="874" height="352" key="GridCell.Tab.1.bottom" timestamp="1591072810218">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
-    <state width="846" height="409" key="GridCell.Tab.1.bottom/0.23.1280.752@0.23.1280.752" timestamp="1590752996453" />
-    <state width="846" height="409" key="GridCell.Tab.1.center" timestamp="1590752996452">
+    <state width="874" height="352" key="GridCell.Tab.1.bottom/0.23.1280.752@0.23.1280.752" timestamp="1591072810218" />
+    <state width="874" height="352" key="GridCell.Tab.1.center" timestamp="1591072810218">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
-    <state width="846" height="409" key="GridCell.Tab.1.center/0.23.1280.752@0.23.1280.752" timestamp="1590752996452" />
-    <state width="846" height="409" key="GridCell.Tab.1.left" timestamp="1590752996451">
+    <state width="874" height="352" key="GridCell.Tab.1.center/0.23.1280.752@0.23.1280.752" timestamp="1591072810218" />
+    <state width="874" height="352" key="GridCell.Tab.1.left" timestamp="1591072810217">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
-    <state width="846" height="409" key="GridCell.Tab.1.left/0.23.1280.752@0.23.1280.752" timestamp="1590752996451" />
-    <state width="846" height="409" key="GridCell.Tab.1.right" timestamp="1590752996452">
+    <state width="874" height="352" key="GridCell.Tab.1.left/0.23.1280.752@0.23.1280.752" timestamp="1591072810217" />
+    <state width="874" height="352" key="GridCell.Tab.1.right" timestamp="1591072810218">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
-    <state width="846" height="409" key="GridCell.Tab.1.right/0.23.1280.752@0.23.1280.752" timestamp="1590752996452" />
+    <state width="874" height="352" key="GridCell.Tab.1.right/0.23.1280.752@0.23.1280.752" timestamp="1591072810218" />
     <state width="838" height="177" key="GridCell.Tab.2.bottom" timestamp="1590383171897">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
@@ -471,10 +534,10 @@
       <screen x="0" y="23" width="1280" height="752" />
     </state>
     <state x="176" y="23" width="924" height="616" key="Registry/0.23.1280.752@0.23.1280.752" timestamp="1590322690463" />
-    <state x="156" y="23" key="SettingsEditor" timestamp="1590667043792">
+    <state x="156" y="23" key="SettingsEditor" timestamp="1590978426846">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
-    <state x="156" y="23" key="SettingsEditor/0.23.1280.752@0.23.1280.752" timestamp="1590667043792" />
+    <state x="156" y="23" key="SettingsEditor/0.23.1280.752@0.23.1280.752" timestamp="1590978426846" />
     <state width="624" height="445" key="SwitcherDM" timestamp="1590552721190">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
@@ -487,10 +550,10 @@
       <screen x="0" y="23" width="1280" height="752" />
     </state>
     <state x="337" y="95" width="584" height="522" key="find.popup/0.23.1280.752@0.23.1280.752" timestamp="1590733800358" />
-    <state x="127" y="23" key="new project wizard" timestamp="1590738250353">
+    <state x="127" y="23" key="new project wizard" timestamp="1591006007546">
       <screen x="0" y="23" width="1280" height="752" />
     </state>
-    <state x="127" y="23" key="new project wizard/0.23.1280.752@0.23.1280.752" timestamp="1590738250353" />
+    <state x="127" y="23" key="new project wizard/0.23.1280.752@0.23.1280.752" timestamp="1591006007546" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/colud20$PaymentMain8001.ic" NAME="PaymentMain8001 Coverage Results" MODIFIED="1590322298021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
